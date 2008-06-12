@@ -65,11 +65,15 @@ convert -size 16x16 icons/gneutronica_icon.png $RPM_BUILD_ROOT/%_miconsdir/%name
 %clean
 rm -rf $RPM_BUILD_ROOT
 
+%if %mdkversion < 200900
 %post
 %update_menus
+%endif
 		
+%if %mdkversion < 200900
 %postun
 %clean_menus
+%endif
 
 %files
 %defattr(-,root,root)
