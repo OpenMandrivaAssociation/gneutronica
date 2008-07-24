@@ -1,6 +1,6 @@
 %define name	gneutronica
 %define version 0.33
-%define release %mkrel 3
+%define release %mkrel 5
 
 Name: 	 	%{name}
 Summary: 	A GNOME-based MIDI drum sequencer
