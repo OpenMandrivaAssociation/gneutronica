@@ -13,7 +13,7 @@ URL:		http://sourceforge.net/projects/gneutronica/
 License:	GPL
 Group:		Sound
 BuildRoot:	%{_tmppath}/%{name}-buildroot
-BuildRequires:	libgnomecanvas2-devel ImageMagick libalsa-devel
+BuildRequires:	libgnomecanvas2-devel imagemagick libalsa-devel
 
 %description
 This program is MIDI drum machine software for linux with a gnome based user
