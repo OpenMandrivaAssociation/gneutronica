@@ -1,6 +1,6 @@
 %define name	gneutronica
 %define version 0.33
-%define release %mkrel 5
+%define release %mkrel 6
 
 Name: 	 	%{name}
 Summary: 	A GNOME-based MIDI drum sequencer
@@ -10,7 +10,7 @@ Release: 	%{release}
 Source:		http://prdownloads.sourceforge.net/gneutronica/%{name}-%{version}.tar.bz2
 URL:		http://sourceforge.net/projects/gneutronica/
 
-License:	GPL
+License:	GPLv2+
 Group:		Sound
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	libgnomecanvas2-devel imagemagick libalsa-devel
