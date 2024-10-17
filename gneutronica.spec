@@ -8,7 +8,7 @@ Version: 	%{version}
 Release: 	%{release}
 
 Source:		http://prdownloads.sourceforge.net/gneutronica/%{name}-%{version}.tar.bz2
-URL:		http://sourceforge.net/projects/gneutronica/
+URL:		https://sourceforge.net/projects/gneutronica/
 
 License:	GPLv2+
 Group:		Sound
