@@ -13,6 +13,7 @@ URL:		https://sourceforge.net/projects/gneutronica/
 License:	GPLv2+
 Group:		Sound
 BuildRoot:	%{_tmppath}/%{name}-buildroot
+BuildRequires:	make
 BuildRequires:	libgnomecanvas2-devel imagemagick libalsa-devel
 
 %description
